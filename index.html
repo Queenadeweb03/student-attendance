@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Student Attendance</title>
+  </head>
+  <body>
+    <section class="attendance">
+      <form action="" id="form">
+        <input type="text" id="name" placeholder="Name" /><br />
+        <br />
+        <input type="number" id="number" placeholder="Number" /><br /><br />
+        <input type="text" id="city" placeholder="city" /><br /><br />
+        <input type="number" id="roll" placeholder="Roll-No" /><br /><br />
+        <label for="select">Gender:</label>
+        <select name="certificate" id="gender">
+          <option value="select" selected></option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option></select
+        ><br /><br />
+        <input class="btn" type="submit" value="Submit" /><br /><br />
+      </form>
+    </section>
+    <hr />
+
+    <section>
+      <table id="table">
+        <tr class="tr">
+          <th>s/n</th>
+          <th>Name</th>
+          <th>Number</th>
+          <th>City</th>
+          <th>Roll No</th>
+          <th>Gender</th>
+          <th>Attendance</th>
+        </tr>
+      </table>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
